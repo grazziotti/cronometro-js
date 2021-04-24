@@ -1,0 +1,55 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: monospace;
+    background-color: #131212;
+}
+
+.cronometro {
+    display: flex;
+    padding-right: 10px;
+    font-size: 80px;
+    color: white;
+}
+.cronometro .ms, span{
+    display: flex;
+    align-items: flex-end;
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+
+.botoes {
+    display: flex;
+    align-items: center;
+    width: 500px;
+    height: 45px;
+    margin-top: 10px;
+}
+.botoes button {
+    flex: 1;
+    padding: 5px 30px;
+    transition: all linear 0.1s;
+    outline: 0;
+    font-size: 25px;
+    border-radius: 30px;
+    background-color: transparent;
+    cursor: pointer;
+}
+.botoes .iniciar{   
+    margin-right: 5px; 
+    border: 2px solid #8A2BE2;
+    color: #8A2BE2;
+}
+
+.ativo {
+    border: 2px solid red;
+    color: red;
+}
+.inativo {
+    border: 2px solid rgba(153, 153, 153, 0.5);
+    color: rgba(153, 153, 153, 0.5);
+}
