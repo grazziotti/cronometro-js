@@ -53,3 +53,21 @@ body {
     border: 2px solid rgba(153, 153, 153, 0.5);
     color: rgba(153, 153, 153, 0.5);
 }
+
+
+@media (max-width: 450px) {
+    .cronometro {
+        font-size: 60px
+    }
+    .cronometro .ms, span {
+        margin-bottom: 3px;
+    }
+    .botoes {
+        flex-direction: column;
+        max-width: 350px
+    }
+    .botoes button {
+        width: 100%;
+        margin-bottom: 7px;
+    }
+}

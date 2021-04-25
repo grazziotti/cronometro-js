@@ -7,7 +7,7 @@
 </h1>
 
 <h2>🔖 Sobre</h2>
- Este projeto trata-se de um crônometro que desenvolvi com intuito de praticar JavaScript
+ Este projeto trata-se de um crônometro que desenvolvi com intuito de praticar javascript
 
 ---
 
